@@ -1,1 +1,22 @@
 // Mixins Here
+
+.center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-btn(@width: 200px, @padding: 5%) {
+  background-color: @btn-bg-color;
+  border-radius: 10px;
+  width: @width;
+  padding: @padding;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+
+  &:hover {
+    background-color: white;
+    color: @btn-bg-color;
+  }
+}
