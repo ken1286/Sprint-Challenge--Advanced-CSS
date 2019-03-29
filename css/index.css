@@ -168,12 +168,17 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  background-color: #F6F6F6;
+  background: rgba(255, 255, 255, 0.5);
 }
 .navigation h1 {
   width: 100%;
   font-size: 5rem;
   text-align: center;
   padding: 1%;
+  opacity: 1;
 }
 .navigation nav {
   display: flex;
@@ -182,11 +187,13 @@ p {
   justify-content: space-evenly;
   width: 65%;
   padding: 2%;
+  opacity: 1;
 }
 .navigation nav a {
   color: #454A59;
   font-size: 1.8rem;
   text-decoration: none;
+  opacity: 1;
 }
 @media (max-width: 500px) {
   .navigation nav {
